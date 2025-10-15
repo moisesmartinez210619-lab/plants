@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guía de Plantas Medicinales Bilingüe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>🌿 Guía de Plantas Medicinales Bilingüe</h1>
+    <div class="tools">
+      <input id="search" class="search" type="text" placeholder="Buscar planta...">
+      <button id="addBtn" class="btn">➕ Añadir planta</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="grid" id="plantasGrid"></div>
+  </main>
+
+  <div class="modal-backdrop" id="modal">
+    <div class="modal">
+      <header>
+        <h2 id="modalTitle">Ficha de planta</h2>
+        <button class="close" id="closeModal">✖</button>
+      </header>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
